@@ -2,11 +2,11 @@
   <div>
     <notebook-ui
       :customStyle="{color:`orange`, 'text-decoration': 'bold'}"
-      content="Amazing"
-      placeholder="This is it"
+      content="This is amazing"
+      placeholder="Write your notes here"
       type="Texture"
       color="red"
-    >Wow</notebook-ui>
+    ></notebook-ui>
   </div>
 </template>
 
