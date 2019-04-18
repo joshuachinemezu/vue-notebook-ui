@@ -1,13 +1,16 @@
 {
+  "private": false,
   "name": "vue-notebook-ui",
   "version": "0.0.1",
-  "description": "This is a vue component that gives your textarea a sleek notebook feel",
+  "description": "A vue component that gives your textarea a sleek notebook feel",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vue serve NotebookUI.vue",
     "build": "bili --name index --plugin vue --vue.css false"
   },
+  "files": [
+    "dist/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joshuachinemezu/vue-notebook-ui.git"
@@ -16,7 +19,11 @@
     "notebook-ui",
     "textarea-like-notebook",
     "notebook-feel",
-    "textarea-classic"
+    "textarea-classic",
+    "paperlike-textarea",
+    "sleek-paper",
+    "sleek-textarea",
+    "redefine-textarea"
   ],
   "author": "Joshua Chinemezu",
   "license": "MIT",
