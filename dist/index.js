@@ -1,5 +1,5 @@
 /*!
- * vue-notebook-ui v0.0.1
+ * vue-notebook-ui v0.0.2
  * (c) Joshua Chinemezu
  * Released under the MIT License.
  */
