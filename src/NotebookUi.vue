@@ -9,7 +9,7 @@
     ]"
       :placeholder="placeholder"
       :value="content"
-      :style="{ color: color, }"
+      :style="customStyle ? customStyle : {color: color, 'font-family': fontStyle }"
     ></textarea>
   </div>
 </template>
@@ -33,8 +33,15 @@ export default {
       type: String,
       default: "mediumblue"
     },
+    fontStyle: {
+      type: String,
+      default: `"Handlee", cursive`
+    },
     placeholder: { default: "Write note here" },
-    content: { default: "Wow" }
+    content: { default: "" },
+    customStyle: {
+      type: Object
+    }
   },
   methods: {}
 };

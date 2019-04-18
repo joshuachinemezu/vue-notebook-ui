@@ -1,6 +1,12 @@
 <template>
   <div>
-    <notebook-ui content="Amazing" placeholder="This is it" type="Texture" color="red">Wow</notebook-ui>
+    <notebook-ui
+      :customStyle="{color:`orange`, 'text-decoration': 'bold'}"
+      content="Amazing"
+      placeholder="This is it"
+      type="Texture"
+      color="red"
+    >Wow</notebook-ui>
   </div>
 </template>
 
