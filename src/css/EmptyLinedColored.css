@@ -1,0 +1,65 @@
+.note-area--EmptyLinedColored.note-area-margin--EmptyLinedColored > textarea {
+  padding-left: 120px;
+  overflow: auto;
+  resize: vertical;
+  display: block;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
+  width: 68%;
+  width: 68%;
+  height: 300px;
+  background-clip: padding-box;
+  font: normal 14px verdana;
+  line-height: 1.5;
+  /* padding: 2px 10px; */
+  min-width: 68%;
+  min-height: 250px;
+  border: solid 1px #fff;
+  -webkit-appearance: textarea;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  flex-direction: column;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  border-width: 0px;
+}
+
+.note-area--EmptyLinedColored > textarea {
+  background-image: -webkit-linear-gradient(
+    rgba(162, 162, 162, 0.26) 0.1em,
+    transparent 0.1em
+  );
+  background-image: linear-gradient(
+    rgba(162, 162, 162, 0.26) 0.1em,
+    transparent 0.1em
+  );
+  background-size: 100% 20px;
+  background-color: transparent !important;
+  line-height: 20px;
+  margin-top: 5px;
+  padding: 0;
+  padding-bottom: 1px;
+}
+
+.note-area--EmptyLinedColored.note-area-margin--EmptyLinedColored {
+  position: relative;
+}
+
+.note-area--EmptyLinedColored > textarea:hover,
+.note-area--EmptyLinedColored > textarea:active,
+.note-area--EmptyLinedColored > textarea:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+}
+.note-area--EmptyLinedColored.note-area-margin--EmptyLinedColored:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  width: 5px;
+  /* background-color: rgba(255, 152, 0, 0.5); */
+}
