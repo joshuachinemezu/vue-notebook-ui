@@ -1,7 +1,7 @@
 <template>
   <div>
     <notebook-ui
-      :customStyle="{color:`orange`, 'text-decoration': 'bold'}"
+      :customStyle="{color:`mediumblue`, 'text-decoration': 'bold'}"
       content="This is amazing"
       placeholder="Write your notes here"
       type="Texture"
