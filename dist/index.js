@@ -96,7 +96,7 @@ var __vue_is_functional_template__ = false;
 
 /* style inject SSR */
 
-var NotebookUI = __vue_normalize__({
+var NotebookUi = __vue_normalize__({
   render: __vue_render__,
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, undefined, undefined);
@@ -105,7 +105,7 @@ var index = {
   install: function install(Vue, options) {
     // Let's register our component globally
     // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("notebookui", NotebookUI);
+    Vue.component("notebook-ui", NotebookUi);
   }
 };
 

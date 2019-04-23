@@ -5,7 +5,7 @@
   "description": "A vue component that gives your textarea a sleek notebook feel",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "vue serve NotebookUI.vue",
+    "dev": "vue serve ./src/NotebookUi.vue",
     "build": "bili --name index --plugin vue --vue.css false"
   },
   "files": [
