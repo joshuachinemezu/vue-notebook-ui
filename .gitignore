@@ -4,7 +4,7 @@
 /storage/*.key
 /vendor
 .env
-bili.config.js
+.idea
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
